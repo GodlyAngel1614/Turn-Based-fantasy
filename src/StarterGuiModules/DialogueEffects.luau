@@ -29,9 +29,9 @@ function module.createDefaultBackgroud()
     local DialogueLabel = Instance.new("TextLabel")
     DialogueLabel.Parent = DialogueFrame
     DialogueFrame.Name = "DialogueFrame"
-    DialogueFrame.Position = UDim2.new(.5, 0., .5, 0)
+    DialogueFrame.Position = UDim2.new(.5, 0., 1, -25)
     DialogueLabel.Size = UDim2.new(1, 0, 1, 0)
-    DialogueLabel.AnchorPoint = Vector2.new(.5, .5)
+    DialogueLabel.AnchorPoint = Vector2.new(.5, 1)
     DialogueLabel.BackgroundTransparency = 1
     DialogueLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
     DialogueLabel.TextSize = 22
