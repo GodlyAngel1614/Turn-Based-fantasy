@@ -1,2 +1,8 @@
 local DialogueEffects = require(script.Parent.Modules.DialogueEffects)
-DialogueEffects.createDefaultBackgroud()
+local DialogueLabel, NameLabel = DialogueEffects.createDefaultBackgroud()
+
+
+
+local function progress() 
+
+end
